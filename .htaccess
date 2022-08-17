@@ -1,0 +1,16 @@
+Header set Access-Control-Allow-Origin "*"
+
+AddDefaultCharset utf-8
+
+AddCharset utf-8 *
+
+<IfModule mod_charset.c>
+
+CharsetSourceEnc utf-8
+
+CharsetDefault utf-8
+
+</IfModule>
+
+ErrorDocument 404 http://artemgonchar.com/404.php
+
